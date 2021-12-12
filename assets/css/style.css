@@ -791,7 +791,6 @@ body.royal_preloader {
 	.parallax { background-size: cover; background-attachment: scroll; background-position: top center!important; }
 }
 @media (max-width: 991px) {
-	.parallax { background-size: cover; background-attachment: scroll; background-position: bottom 90px left 630px!important; }
 	#menu-wrap{
 		position: relative;
 		top:auto;
@@ -956,7 +955,18 @@ body.royal_preloader {
 .main-title.on-dark .main-subtitle-bottom{
 	color: #d5d5d5;
 }
-
+@media (min-width: 412px) and (max-width: 428px) {
+	.parallax { background-size: cover; background-attachment: scroll; background-position: bottom 150px left 76%!important; }
+}
+@media (min-width: 391px) and (max-width: 414px) {
+	.parallax { background-size: cover; background-attachment: scroll; background-position: bottom 130px left 76%!important; }
+}
+@media (min-width: 376px) and (max-width: 390px) {
+	.parallax { background-size: cover; background-attachment: scroll; background-position: bottom 100px left 76%!important; }
+}
+@media (max-width: 375px) {
+	.parallax { background-size: cover; background-attachment: scroll; background-position: bottom 90px left 76%!important; }
+}
 
 
 /* #Countdown
