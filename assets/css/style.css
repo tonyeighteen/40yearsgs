@@ -1481,8 +1481,8 @@ ul.countdown li.seperator {
 	border-radius:3px 0 0 3px;
 }
 #fixButton a span{
-	color:#fff;
-	background:#00adef;
+	color:#000;
+	background:#d8f700;
 	line-height:36px;
 	padding:0 0px;
 	float:left;
