@@ -791,6 +791,7 @@ body.royal_preloader {
 	.parallax { background-size: cover; background-attachment: scroll; background-position: top center!important; }
 }
 @media (max-width: 991px) {
+	.parallax { background-size: cover; background-attachment: scroll; background-position: bottom 90px left 630px!important; }
 	#menu-wrap{
 		position: relative;
 		top:auto;
