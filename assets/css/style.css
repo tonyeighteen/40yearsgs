@@ -956,16 +956,16 @@ body.royal_preloader {
 	color: #d5d5d5;
 }
 @media (min-width: 412px) and (max-width: 428px) {
-	.parallax { background-size: cover; background-attachment: scroll; background-position: bottom 230px left 76%!important; }
+	.parallax { background-size: cover; background-attachment: scroll; background-position: bottom 225px left 76%!important; }
 }
 @media (min-width: 391px) and (max-width: 414px) {
-	.parallax { background-size: cover; background-attachment: scroll; background-position: bottom 210px left 76%!important; }
+	.parallax { background-size: cover; background-attachment: scroll; background-position: bottom 205px left 76%!important; }
 }
 @media (min-width: 376px) and (max-width: 390px) {
-	.parallax { background-size: cover; background-attachment: scroll; background-position: bottom 190px left 76%!important; }
+	.parallax { background-size: cover; background-attachment: scroll; background-position: bottom 185px left 76%!important; }
 }
 @media (max-width: 375px) {
-	.parallax { background-size: cover; background-attachment: scroll; background-position: bottom 170px left 76%!important; }
+	.parallax { background-size: cover; background-attachment: scroll; background-position: bottom 165px left 76%!important; }
 }
 
 
