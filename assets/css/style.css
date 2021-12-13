@@ -112,12 +112,12 @@ body.royal_preloader {
 }
 
 .btn {
-	font-family: "mtr-regular", sans-serif;
+	font-family: "mtr-bold", sans-serif;
 	line-height: 1.25;
 	padding: 0.8rem 1.4rem;
 	font-size: .8rem;
 	letter-spacing: 1px;
-	border-radius: 0.15rem;
+	border-radius: 0.0rem;
 	cursor:pointer;
 	border:none;
 	text-decoration: none;
@@ -189,7 +189,7 @@ body.royal_preloader {
 }
 .btn-primary.btn-simple-white:hover{
 	color: #fff;
-	border: 2px solid #1c69d4;
+	border: 2px solid #0062ff;
 }
 .btn.btn-default {
 	color:#fff;
@@ -956,16 +956,16 @@ body.royal_preloader {
 	color: #d5d5d5;
 }
 @media (min-width: 412px) and (max-width: 428px) {
-	.parallax { background-size: cover; background-attachment: scroll; background-position: bottom 150px left 76%!important; }
+	.parallax { background-size: cover; background-attachment: scroll; background-position: bottom 190px left 76%!important; }
 }
 @media (min-width: 391px) and (max-width: 414px) {
-	.parallax { background-size: cover; background-attachment: scroll; background-position: bottom 130px left 76%!important; }
+	.parallax { background-size: cover; background-attachment: scroll; background-position: bottom 170px left 76%!important; }
 }
 @media (min-width: 376px) and (max-width: 390px) {
-	.parallax { background-size: cover; background-attachment: scroll; background-position: bottom 100px left 76%!important; }
+	.parallax { background-size: cover; background-attachment: scroll; background-position: bottom 140px left 76%!important; }
 }
 @media (max-width: 375px) {
-	.parallax { background-size: cover; background-attachment: scroll; background-position: bottom 90px left 76%!important; }
+	.parallax { background-size: cover; background-attachment: scroll; background-position: bottom 130px left 76%!important; }
 }
 
 
@@ -1004,9 +1004,10 @@ ul.countdown li p {
 	font-family: "mtr-regular", sans-serif;
 	color: #fff;
 	font-size: 12px;
+	text-align: center;
 	text-transform:uppercase;
 	letter-spacing:1px;
-	margin-top:20px;
+	margin-top:-2px;
 }
 
 /* #Logos
