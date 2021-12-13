@@ -1457,7 +1457,7 @@ ul.countdown li.seperator {
 	color: rgba(255, 255, 255, 0.5);
 	font-family: "mtr-bold", sans-serif;
 	font-size: 16px;
-	letter-spacing: 5px;
+	letter-spacing: 1px;
 	margin: 10px 0 0 0;
 	font-weight: normal;
 }
