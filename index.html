@@ -160,9 +160,12 @@
 ================================================== -->
 
 <div class="timeline-container" id="timeline-1">
-    <div class="timeline-header">
-        <h3 class="timeline-header__subtitle">LỊCH SỬ DÒNG XE</h3>
-        <h2 class="timeline-header__title">BMW GS</h2>
+    <div class="container z-bigger">
+        <div class="timeline-header">
+            <h3 class="timeline-header__subtitle">LỊCH SỬ DÒNG XE</h3>
+            <h2 class="timeline-header__title">BMW GS</h2>
+            <p class="timeline__content-desc">BMW 5 Series thế hệ đầu tiên (E12) được ra mắt vào năm 1972. Kể từ khi xuất hiện, mẫu xe này đã thể hiện tầm nhìn thiết kế mới của BMW về một chiếc sedan lớn hơn, thể thao hơn, thoải mái hơn và vượt trội hơn. 5 Series thế hệ đầu tiên nổi bật với khả năng vận hành ấn tượng, dù nặng 1,4 tấn nhưng xe vẫn tăng tốc từ 0 - 100 km/h trong dưới 10 giây. Có thể nói, đây là chiếc xe đã đặt nền móng cho một trong những mẫu xe thành công nhất của BMW.</p>
+        </div>
     </div>
     <div class="timeline">
                 <div class="timeline-item" data-text="1972">
@@ -745,7 +748,7 @@
 <div id="footer" class="section padding-top-small background-dark-2 over-hide footer-1 dark">
     <div class="container">
         <div class="row padding-bottom-smaller">
-            <h2>BMW ĐƯỢC PHÂN PHỐI TẠI VIỆT NAM BỞI THACO</h2>
+            <h2>BMW MOTORRAD ĐƯỢC PHÂN PHỐI TẠI VIỆT NAM BỞI THACO</h2>
         </div>
         <div class="row">
             <div class="col-md-4 mt-4 mt-md-0">
@@ -1092,6 +1095,7 @@ TP.Buôn Ma Thuột, Tỉnh Đắk Lắk</p>
     let current_stage="product";
     let is_countdown_success = false;
     let first_init=false;
+    $(".nav-product").hide();
     $('.countdown').downCount({
         date: "12/15/2021 16:00:00",
         offset: +7
@@ -1124,16 +1128,14 @@ TP.Buôn Ma Thuột, Tỉnh Đắk Lắk</p>
                             break;
                     }
                     
-                    first_init=true;
-			
-		
+                    first_init=true;			
     });
 
     setInterval(function () {
 
         if (is_busy) return;
         is_busy = true;
-        $.get("https://www.bmwbethefirst.vn/check_stage")
+        $.get("check_stage.asp")
     .done(function (result) {
 
             if (result.status) {

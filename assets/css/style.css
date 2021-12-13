@@ -1386,7 +1386,7 @@ ul.countdown li.seperator {
 }
 .timeline-item--active {
 	opacity: 1;
-	transform: translateY(100px);
+	transform: translateY(0px);
 	filter: blur(0px);
 }
 .timeline-item--active:before {
@@ -1445,7 +1445,7 @@ ul.countdown li.seperator {
 .timeline-header__title {
 	color: #fff;
 	font-size: 46px;
-	font-family: "mtr-regular";
+	font-family: "mtr-bold";
 	font-weight: normal;
 	margin: 0;
 }
