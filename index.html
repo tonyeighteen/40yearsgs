@@ -91,9 +91,12 @@
 
     <!-- Hero Slider Block
     ================================================== -->
-    <div id="banner" class="section padding-top-small-1 padding-bottom-1st full-height">
+    <div class="section productbanner">
+        <img class="img-fluid" src="assets/img/herobannergs_mobile.jpg" alt="">
+    </div>
+    <div id="banner" class="section padding-top-small-1 padding-bottom-1st full-height shiftbg">
 
-        <div class="parallax" style="background-image: url('assets/img/herobannergs.jpg')"></div>
+        <div class="parallax show-hide" style="background-image: url('assets/img/herobannergs.jpg')"></div>
 
     <div class=""></div>
     <div class="container z-bigger">
@@ -101,13 +104,13 @@
 
             <div class="col-md-12 title-banner">
                 <div class=" main-title on-dark ">
-                    <div style="color: white;font-size: 38px;line-height: 42px;font-family: 'mtr-outline', sans-serif;"> 
+                    <div style="color: white;font-size: 35px;line-height: 37px;font-family: 'mtr-outline', sans-serif;"> 
                         <p>ARE YOU READY <br>FOR ADVENTURE?</p>
                     </div>
                 </div>
             </div>
 
-            <div class="col-md-12 mb-5 cts">
+            <div class="col-md-12 mb-5-1 cts">
                 <ul class="countdown">
                     <li>
                         <span class="days">00</span>
@@ -133,7 +136,7 @@
             <div class="col-md-12 caption">
                 <div class="main-title on-dark">
                     <div class="main-subtitle-bottom" style="font-family: 'mtr-bold', sans-serif">ĐÓN XEM</div>
-                    <div style="color: white;font-size: 38px;line-height: 42px;font-family: 'mtr-bold', sans-serif;"> 
+                    <div style="color: white;font-size: 35px;line-height: 37px;font-family: 'mtr-bold', sans-serif;"> 
                         <p>THE NEW <br>BMW R 1250 GS <br>& R 1250 GS ADVENTURE</p>
                     </div>
                     <div class="main-subtitle-bottom" style="font-family: 'mtr-bold', sans-serif">TẠI</div>
@@ -239,8 +242,11 @@
 <div class="stage-product" style="display: none">
     <!-- Hero Slider Block
 	================================================== -->
-    <div class="section padding-top-1st padding-bottom full-height">
-        <div class="parallax" style="background-image: url('https://bmwbethefirst.vn/uploads/mH85UOd9WtBIF0K1.jpg')"></div>
+    <div class="section productbanner">
+        <img class="img-fluid" src="uploads/product_banner_mobile.jpg" alt="">
+    </div>
+    <div class="section padding-top-1st padding-bottom full-height show-hide">
+        <div class="parallax" style="background-image: url('uploads/product_banner.jpg')"></div>
 </div>
 
 
@@ -617,20 +623,20 @@
             <div class="st-hd text-center">
                 <h4>ĐĂNG KÝ TRẢI NGHIỆM TẠI SHOWROOM BMW MOTORRAD</h4>
             </div>
-            <form method="post" action="https://www.bmwbethefirst.vn/request.html" class="" style="max-width:680px; margin:0 auto;"
-            id="frmMobile">
-            <input type="hidden" name="_token" value="F8LXXRUmRV2HqG5RaMoSfwU2Rce1QVvfp3KgBbSl">            <div id="formContentContactMobile">
+            <form method="GET" action="" class="" style="max-width:680px; margin:0 auto;"
+            id="frmMobile">         
+            <div id="formContentContactMobile">
                 <div class="form-group">
                     <input type="text" class="form-control" name="name" id="txtName"
-                           placeholder="Họ và tên" required>
+                           placeholder=" Họ và tên" required>
                 </div>
                 <div class="form-group">
                     <input type="text" class="form-control" onkeypress="return isNumber(event)"
-                           id="phone" name="phone" placeholder="Số điện thoại" required>
+                           id="phone" name="phone" placeholder=" Số điện thoại" required>
                 </div>
                 <div class="form-group">
                     <input type="email" class="form-control" id="email" name="email"
-                           placeholder="Email" required>
+                           placeholder=" Email" required>
                 </div>
 
                 <div class="form-group">
@@ -704,10 +710,10 @@
                 <div class="form-group">
                     <select class="form-control" id="cboShowroom" name="showroom" required>
                         <option value="">Chọn Showroom Tư Vấn/Lái Thử</option>
-                        <option value="bmw_long_bien">BMW Motorrad Long Biên - Hà Nội</option>
-                        <option value="bmw_da_nang">BMW Motorrad Đà Nẵng - Đà Nẵng</option>
-                        <option value="bmw_nguyen_van_troi">BMW Motorrad Nguyễn Văn Trỗi - TP.HCM</option>
-                        <option value="bmw_sa_la">BMW Motorrad Sala - TP.HCM</option>
+                        <option value="BMW Motorrad Long Biên">BMW Motorrad Long Biên - Hà Nội</option>
+                        <option value="BMW Motorrad Đà Nẵng">BMW Motorrad Đà Nẵng - Đà Nẵng</option>
+                        <option value="BMW Motorrad Nguyễn Văn Trỗi">BMW Motorrad Nguyễn Văn Trỗi - TP.HCM</option>
+                        <option value="BMW Motorrad Sala">BMW Motorrad Sala - TP.HCM</option>
 
                     </select>
                 </div>
@@ -722,7 +728,7 @@
                 <input type="hidden" onload="getDate()" class="form-control" id="date" name="Full_Time" value="">
 
                 <div class="form-group text-center">
-                    <button class="btn btn-primary btn-dark btn-simple-white  btn-long mt-5">ĐĂNG KÝ</button>
+                    <input class="btn btn-primary btn-dark btn-simple-white  btn-long mt-5" type="submit" value="ĐĂNG KÝ">
                 </div>
             </div>
             <div id="content-mobile"></div>
@@ -736,7 +742,7 @@
 
 <div id="footer" class="section padding-top-small background-dark-2 over-hide footer-1 dark">
     <div class="container">
-        <div class="row padding-bottom-smaller">
+        <div class="row padding-bottom-smaller" style="margin: 0px 0px 9.6px">
             <h4>BMW MOTORRAD ĐƯỢC PHÂN PHỐI TẠI VIỆT NAM BỞI THACO</h4>
         </div>
         <div class="row">
@@ -778,7 +784,7 @@
             </div>           
             <div class="col-md-4 mt-4 mt-md-0">
                 <h5>KHU VỰC MIỀN NAM</h5>
-                                                                                                                                                    <address class="padding-top-bottom-smaller">
+                                                                                                                                                    <address class="padding-top-smaller">
                     <h6>BMW MOTORRAD SALA</h6>
                     <p>12 Mai Chí Thọ, Phường An Lợi Đông,
 <br>TP. Thủ Đức, TP. Hồ Chí Minh.</p>
@@ -855,6 +861,34 @@
 <script type="text/javascript" src="https://bmwbethefirst.vn/assets/js/custom-product.js"></script>
 <script type="text/javascript" src="https://bmwbethefirst.vn/assets/js/js-cloudimage-360-view.min.js"></script>
 
+<script type="text/javascript">
+    $(document).ready(function()
+    {
+      var submit = $("input[type='submit']");
+      submit.click(function()
+                  {
+                     var data = $('form#frmMobile').serialize();
+                     $.ajax({
+                               type : 'GET',
+                               url : 'https://script.google.com/macros/s/AKfycbxLXK4nDNR-n7qVCmiSCMasxgbQKeMBMTMZa3fjTRDNA-vFCAA/exec',
+                               dataType:'json',
+                               crossDomain : true,
+                               data : data,
+                               success : function(data)
+                             {
+                     if(data == 'false')
+                             {
+                                alert('Gửi không thành công, bạn thử lại nhé.');
+                             }else{
+                                alert('Đăng ký thành công. Chúng tôi sẽ liên hệ với bạn trong thời gian sớm nhất.');
+                             }
+                  }
+       });
+       return false;
+      });
+    });
+   </script>
+
 
 <script>
     let pip = false;
@@ -924,12 +958,12 @@
         },15000)
     }
     let is_busy = false;
-    let current_stage="live";
+    let current_stage="product";
     let is_countdown_success = false;
     let first_init=false;
     $(".nav-product").hide();
     $('.countdown').downCount({
-        date: "12/20/2021 16:00:00",
+        date: "12/13/2021 16:00:00",
         offset: +7
     }, function () {
         is_countdown_success=true;
@@ -948,14 +982,14 @@
                             $(".stage-product").show();
                             $(".nav-product").show();
                             if (!$("#live-iframe").attr("src") && is_countdown_success) setupLivestream()
-                            $(".stage-product .parallax").attr("style",`background-image: url('https://bmwbethefirst.vn/uploads/mH85UOd9WtBIF0K1.jpg'); background-position: 50% 0px;`);
+                            $(".stage-product .parallax").attr("style",`background-image: url('uploads/product_banner.jpg'); background-position: 50% 0px;`);
                             $('html, body').animate({ scrollTop: $('#banner').offset().top }, 'slow');
                             break;
                         case "product":
                             $(".stage-livestream").hide();
                             $(".stage-product").show();
                             $(".nav-product").show();
-                            $(".stage-product .parallax").attr("style",`background-image: url('https://bmwbethefirst.vn/uploads/mH85UOd9WtBIF0K1.jpg'); background-position: 50% 0px;`);
+                            $(".stage-product .parallax").attr("style",`background-image: url('uploads/product_banner.jpg'); background-position: 50% 0px;`);
                             $('html, body').animate({ scrollTop: $('#banner').offset().top }, 'slow');
                             break;
                     }
@@ -989,7 +1023,7 @@
                             $(".stage-product").show();
                             $(".nav-product").show();
                             if (!$("#live-iframe").attr("src") && is_countdown_success) setupLivestream()
-                            $(".stage-product .parallax").attr("style",`background-image: url('https://bmwbethefirst.vn/uploads/mH85UOd9WtBIF0K1.jpg'); background-position: 50% 0px;`);
+                            $(".stage-product .parallax").attr("style",`background-image: url('uploads/product_banner.jpg'); background-position: 50% 0px;`);
                             
 							$('html, body').animate({ scrollTop: $('#banner').offset().top }, 'slow');
                             break;
@@ -997,7 +1031,7 @@
                             $(".stage-livestream").hide();
                             $(".stage-product").show();
                             $(".nav-product").show();
-                            $(".stage-product .parallax").attr("style",`background-image: url('https://bmwbethefirst.vn/uploads/mH85UOd9WtBIF0K1.jpg'); background-position: 50% 0px;`);
+                            $(".stage-product .parallax").attr("style",`background-image: url('uploads/product_banner.jpg'); background-position: 50% 0px;`);
                            
                             $('html, body').animate({ scrollTop: $('#banner').offset().top }, 'slow');
                             
@@ -1023,7 +1057,7 @@
 	
 	setInterval(function(){
 		$(".stage-livestream .parallax").attr("style",`background-image: url('assets/img/herobannergs.jpg'); background-position: 50% 0px;`);
-		$(".stage-product .parallax").attr("style",`background-image: url('https://bmwbethefirst.vn/uploads/mH85UOd9WtBIF0K1.jpg'); background-position: 50% 0px;`);
+		$(".stage-product .parallax").attr("style",`background-image: url('uploads/product_banner.jpg'); background-position: 50% 0px;`);
 		
 	},2000)
     function showProduct(status){
@@ -1031,7 +1065,7 @@
         if (status){
             $(".stage-livestream").hide();
             $(".stage-product").show();
-            $(".stage-product .parallax").attr("style",`background-image: url('https://bmwbethefirst.vn/uploads/mH85UOd9WtBIF0K1.jpg'); background-position: 50% 0px;`);
+            $(".stage-product .parallax").attr("style",`background-image: url('uploads/product_banner.jpg'); background-position: 50% 0px;`);
         
         }else{
             $(".stage-livestream").show();
