@@ -205,7 +205,7 @@ mark,
     background-color: #ffffff;
 }
 figure.vimeo a:before, figure.youtube a:before {
-	border-left: 10px solid ##0062ff;
+	border-left: 10px solid #0062ff;
 }
 figure.vimeo:hover a:after, figure.youtube:hover a:after {
 	background: #0062ff;
