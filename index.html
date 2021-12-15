@@ -650,7 +650,7 @@
                     </select>
                 </div>
 
-                <input type="hidden" onload="getDate()" class="form-control" id="date" name="Full_Time" value="">
+                <input type="hidden" class="form-control" id="submitdate" name="submit_date">
 
                 <div class="form-group text-center">
                     <input class="btn btn-primary btn-dark btn-simple-white  btn-long mt-5" type="submit" value="ĐĂNG KÝ">
@@ -786,6 +786,19 @@
 <script type="text/javascript" src="assets/js/custom-product.js"></script>
 <script type="text/javascript" src="assets/js/js-cloudimage-360-view.min.js"></script>
 
+<script type="text/javascript">
+    var date = new Date();
+    var dd = String(date.getDate()).padStart(2, '0');
+    var mm = String(date.getMonth() + 1).padStart(2, '0'); //January is 0!
+    var yyyy = date.getFullYear();
+
+    today = mm + '/' + dd + '/' + yyyy;
+    var time = date.toLocaleTimeString();
+
+    var dateTime = today + " at " + time;
+
+    document.querySelector("#submitdate").value = dateTime;
+</script>
 <script type="text/javascript">
     $(document).ready(function()
     {
