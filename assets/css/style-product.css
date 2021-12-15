@@ -226,7 +226,7 @@
 
 	}
 	.col-model h6, a{
-		color: #212121;
+		color: #16171a;
 
 
 	}
@@ -590,8 +590,8 @@
     .stage-product h1, .stage-product h2, .stage-product h3, .stage-product h4,.stage-product h5,.stage-product h6,.stage-product .h1,.stage-product .h2,.stage-product .h3,.stage-product .h4, .stage-product .h5, .stage-product .h6 {
         font-family: 'mtr-bold', sans-serif;
         margin-bottom: 0.6rem;
-        line-height: 1.25;
-        color: #212121;
+        line-height: 1.6;
+        color: #16171a;
 
 
     }
