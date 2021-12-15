@@ -253,10 +253,10 @@
     <!-- Hero Slider Block
 	================================================== -->
     <div class="section productbanner">
-        <img class="img-fluid" src="uploads/product_banner_mobile.jpg" alt="">
+        <img class="img-fluid" src="assets/uploads/product_banner_mobile.jpg" alt="">
     </div>
     <div class="section padding-top-1st padding-bottom full-height show-hide">
-        <div class="parallax" style="background-image: url('uploads/product_banner.jpg')"></div>
+        <div class="parallax" style="background-image: url('assets/uploads/product_banner.jpg')"></div>
 </div>
 
 
@@ -274,34 +274,6 @@
             </div>
         </div>
     </div>
-    <!--<div class="container">
-        <div class="row">
-                                    <div class="col-lg-4" data-scroll-reveal="enter bottom move 40px over 0.8s after 0.2s">
-                <div class="services-box-1 border-on-light text-center over-hide pt-0 pl-0 pr-0">
-                    <img class="img-fluid" src="https://bmwbethefirst.vn/uploads/vk0Wnr0JDExFLUoh.jpg" alt="">
-                    <h5 class="mt-4 text-padding-with-img">Thiết kế luôn thay đổi để dẫn đầu</h5>
-                    <p class="mt-3 mb-4 text-padding-with-img">BMW 5 Series mang đến ngôn ngữ thiết kế được thay đổi khiến cho diện mạo của 5 Series tăng thêm vẻ bề thế, năng động nhưng vẫn giữ được sự lịch lãm đầy mê hoặc của riêng mình. </p>
-                </div>
-            </div>
-            
-                                    <div class="col-lg-4" data-scroll-reveal="enter bottom move 40px over 0.8s after 0.2s">
-                <div class="services-box-1 border-on-light text-center over-hide pt-0 pl-0 pr-0">
-                    <img class="img-fluid" src="https://bmwbethefirst.vn/uploads/o0gMQgieA5pbrXwH.jpg" alt="">
-                    <h5 class="mt-4 text-padding-with-img">Không gian nội thất tiện nghi</h5>
-                    <p class="mt-3 mb-4 text-padding-with-img">Khoang lái của BMW 5 Series mới sở hữu những tính năng công nghệ tân tiến nhất. Với hệ điều hành BMW 7.0 bạn có thể điều khiển tính năng của xe chỉ với một nút chạm trên màn hình cảm ứng 12,3 inch. </p>
-                </div>
-            </div>
-            
-                                    <div class="col-lg-4" data-scroll-reveal="enter bottom move 40px over 0.8s after 0.2s">
-                <div class="services-box-1 border-on-light text-center over-hide pt-0 pl-0 pr-0">
-                    <img class="img-fluid" src="https://bmwbethefirst.vn/uploads/EeVdEOeITCgxXDSg.jpg" alt="">
-                    <h5 class="mt-4 text-padding-with-img">Công nghệ hỗ trợ lái tiên tiến</h5>
-                    <p class="mt-3 mb-4 text-padding-with-img">Công nghệ hỗ trợ lái trên BMW 5 Series được nâng lên một tầm cao mới với những tính năng an toàn mà bạn có thể dễ dàng kích hoạt qua chức năng điều khiển bằng giọng nói Intelligent Voice Control.  </p>
-                </div>
-            </div>
-            
-                    </div>
-    </div>-->
 </div>
 
 <div class="section background-white padding-bottom-small">
@@ -314,13 +286,13 @@
                 <p class="product_content-desc color-white mb-5">Luôn dẫn đầu trong suốt hơn bốn thập kỷ, dòng xe GS đại diện cho niềm khao khát chinh phục và những chuyến phiêu lưu không biên giới. R 1250 GS & R 1250 GS Adventure phiên bản "40 Years GS" kỷ niệm một chặng đường lịch sử GS vẻ vang và tôn vinh #SpiritOfGS. Nổi bật trong màu sơn đen-vàng, phiên bản đặc biệt này gợi nhớ đến mẫu xe đầy tiếng vang R 100 GS và gây ấn tượng với công nghệ và trang thiết bị hiện đại. Với bộ đôi adventure R 1250 được trang bị động cơ boxer BMW ShiftCam mạnh mẽ và các tính năng mới, bạn sẽ dễ dàng vượt qua những giới hạn, vươn đến những chân trời mới và trở thành một phần của cộng đồng GS đặc biệt này.</p>
             </div>
             <div class="col-lg-6 col-md-12">
-                <img src="uploads/product_img_1.jpg" alt="" class="img-fluid rounded img-raised">
+                <img src="assets/uploads/product_img_1.jpg" alt="" class="img-fluid rounded img-raised">
             </div>
         </div>
     </div>
 </div>
 
-<div class="section padding-bottom-small half-height" style="background-image: url('uploads/product_banner_light.jpg'); background-size: cover; background-position: 50% 50%;">
+<div class="section padding-bottom-small half-height background-product-1" style="background-image: url('assets/uploads/product_banner_light.jpg')">
 </div>
 
 <!-- Design================================================== -->
@@ -1012,14 +984,14 @@
                             $(".stage-product").show();
                             $(".nav-product").show();
                             if (!$("#live-iframe").attr("src") && is_countdown_success) setupLivestream()
-                            $(".stage-product .parallax").attr("style",`background-image: url('uploads/product_banner.jpg'); background-position: 50% 0px;`);
+                            $(".stage-product .parallax").attr("style",`background-image: url('assets/uploads/product_banner.jpg'); background-position: 50% 0px;`);
                             $('html, body').animate({ scrollTop: $('#banner').offset().top }, 'slow');
                             break;
                         case "product":
                             $(".stage-livestream").hide();
                             $(".stage-product").show();
                             $(".nav-product").show();
-                            $(".stage-product .parallax").attr("style",`background-image: url('uploads/product_banner.jpg'); background-position: 50% 0px;`);
+                            $(".stage-product .parallax").attr("style",`background-image: url('assets/uploads/product_banner.jpg'); background-position: 50% 0px;`);
                             $('html, body').animate({ scrollTop: $('#banner').offset().top }, 'slow');
                             break;
                     }
@@ -1053,7 +1025,7 @@
                             $(".stage-product").show();
                             $(".nav-product").show();
                             if (!$("#live-iframe").attr("src") && is_countdown_success) setupLivestream()
-                            $(".stage-product .parallax").attr("style",`background-image: url('uploads/product_banner.jpg'); background-position: 50% 0px;`);
+                            $(".stage-product .parallax").attr("style",`background-image: url('assets/uploads/product_banner.jpg'); background-position: 50% 0px;`);
                             
 							$('html, body').animate({ scrollTop: $('#banner').offset().top }, 'slow');
                             break;
@@ -1061,7 +1033,7 @@
                             $(".stage-livestream").hide();
                             $(".stage-product").show();
                             $(".nav-product").show();
-                            $(".stage-product .parallax").attr("style",`background-image: url('uploads/product_banner.jpg'); background-position: 50% 0px;`);
+                            $(".stage-product .parallax").attr("style",`background-image: url('assets/uploads/product_banner.jpg'); background-position: 50% 0px;`);
                            
                             $('html, body').animate({ scrollTop: $('#banner').offset().top }, 'slow');
                             
@@ -1087,7 +1059,8 @@
 	
 	setInterval(function(){
 		$(".stage-livestream .parallax").attr("style",`background-image: url('assets/img/herobannergs.jpg'); background-position: 50% 0px;`);
-		$(".stage-product .parallax").attr("style",`background-image: url('uploads/product_banner.jpg'); background-position: 50% 0px;`);
+		$(".stage-product .parallax").attr("style",`background-image: url('assets/uploads/product_banner.jpg'); background-position: 50% 0px;`);
+        $(".background-product-1").attr("style",`background-image: url('assets/uploads/product_banner_light.jpg'); background-position: 50% 50%;`);
 		
 	},2000)
     function showProduct(status){
@@ -1095,7 +1068,7 @@
         if (status){
             $(".stage-livestream").hide();
             $(".stage-product").show();
-            $(".stage-product .parallax").attr("style",`background-image: url('uploads/product_banner.jpg'); background-position: 50% 0px;`);
+            $(".stage-product .parallax").attr("style",`background-image: url('assets/uploads/product_banner.jpg'); background-position: 50% 0px;`);
         
         }else{
             $(".stage-livestream").show();

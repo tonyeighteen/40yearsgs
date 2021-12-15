@@ -5,6 +5,12 @@
 		background-size:cover;
 		background-repeat:no-repeat;
 	}
+    .background-product-1 {
+        background-repeat: no-repeat;
+        background-attachment: scroll;
+        background-size: cover;
+        background-position:center;
+    }
 	.padding-on-grid-12{
 		padding-left: 12%;
 		padding-right: 12%;
