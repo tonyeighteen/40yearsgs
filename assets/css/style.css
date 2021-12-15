@@ -1266,7 +1266,7 @@ figure.vimeo a img, figure.youtube a img {
 	}
 }
 
-@media (max-width: 767px) {
+@media (max-width: 768px) {
 	h1, .h1 {
 		font-size: 2.2rem;
 	}
@@ -1287,16 +1287,16 @@ figure.vimeo a img, figure.youtube a img {
 	}
 
 	ul.countdown li {
-		width: 90px;
+		width: 60px;
 	}
 	ul.countdown li span {
 		font-size: 3rem;
-		line-height: 3rem;
+		line-height: 2.5rem;
 	}
 	ul.countdown li.seperator {
-		line-height: 3rem;
-		padding-left:5px;
-		padding-right:5px;
+		line-height: 2rem;
+		padding-left:10px;
+		padding-right:15px;
 		width: 6px;
 	}
 	.caption{
@@ -1312,13 +1312,13 @@ figure.vimeo a img, figure.youtube a img {
 		width: 60px;
 	}
 	ul.countdown li span {
-		font-size: 2.5rem;
+		font-size: 3rem;
 		line-height: 2.5rem;
 	}
 	ul.countdown li.seperator {
-		line-height: 1.5rem;
-		padding-left:0px;
-		padding-right:0px;
+		line-height: 2.0rem;
+		padding-left:10px;
+		padding-right:15px;
 		width: 6px;
 	}
 	.caption{
