@@ -984,7 +984,7 @@ body.royal_preloader {
 .main-title.on-dark .main-subtitle-bottom{
 	color: #d5d5d5;
 }
-@media (min-width: 412px) and (max-width: 428px) {
+/*@media (min-width: 412px) and (max-width: 428px) {
 	.parallax { background-size: cover; background-attachment: scroll; background-position: bottom 225px left 76%!important; }
 }
 @media (min-width: 391px) and (max-width: 414px) {
@@ -995,7 +995,7 @@ body.royal_preloader {
 }
 @media (max-width: 375px) {
 	.parallax { background-size: cover; background-attachment: scroll; background-position: bottom 165px left 76%!important; }
-}
+}*/
 
 
 /* #Countdown
