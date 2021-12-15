@@ -11,6 +11,12 @@
         background-size: cover;
         background-position:center;
     }
+    .background-product-2 {
+        background-repeat: no-repeat;
+        background-attachment: scroll;
+        background-size: cover;
+        background-position:center;
+    }
 	.padding-on-grid-12{
 		padding-left: 12%;
 		padding-right: 12%;

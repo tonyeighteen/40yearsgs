@@ -180,6 +180,7 @@ body.royal_preloader {
 }
 .btn-primary.btn-simple:hover{
 	color: #fff;
+	border: 2px solid #0062ff;
 }
 .btn-primary.btn-simple-white {
 	background-color: transparent;
@@ -947,9 +948,9 @@ body.royal_preloader {
 .main-title h3,
 .main-title h4,
 .main-title h5{
-	max-width: 800px;
+	max-width: 100%;
 	width: 100%;
-    text-transform: capitalize;
+    /*text-transform: capitalize;*/
 }
 .main-title.on-dark h2,
 .main-title.on-dark h3,
