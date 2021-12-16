@@ -653,7 +653,7 @@
                 <input type="hidden" class="form-control" id="submitdate" name="submit_date">
 
                 <div class="form-group text-center">
-                    <input class="btn btn-primary btn-dark btn-simple-white  btn-long mt-5" type="submit" value="ĐĂNG KÝ">
+                    <button class="btn btn-primary btn-dark btn-simple-white  btn-long mt-5 loading" type="submit"><span class="button__text">ĐĂNG KÝ</span></button>
                 </div>
             </div>
             <div id="content-mobile"></div>
@@ -802,9 +802,11 @@
 <script type="text/javascript">
     $(document).ready(function()
     {
-      var submit = $("input[type='submit']");
+      var submit = $("button[type='submit']");
       submit.click(function()
                   {
+                     const btn = document.querySelector(".loading");
+                     btn.classList.add("button--loading");
                      var data = $('form#frmMobile').serialize();
                      $.ajax({
                                type : 'GET',
@@ -817,8 +819,10 @@
                      if(data == 'false')
                              {
                                 alert('Gửi không thành công, bạn thử lại nhé.');
+                                btn.classList.remove("button--loading");
                              }else{
                                 alert('Đăng ký thành công. Chúng tôi sẽ liên hệ với bạn trong thời gian sớm nhất.');
+                                btn.classList.remove("button--loading");
                              }
                   }
        });
