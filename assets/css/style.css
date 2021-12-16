@@ -789,7 +789,7 @@ position: relative;
 	transition : all 0.3s ease-out;
 }
 .cbp-af-header .navbar {
-	padding: 0.8rem 0;
+	padding: 0.8rem 50px;
     box-shadow: none;
     border-radius: 0;
 }
@@ -797,10 +797,10 @@ position: relative;
 	left: 0;
 }
 .cbp-af-header .navbar-toggler-right {
-	right: 0;
+	right: 30px;
 }
 .cbp-af-header .navbar-toggler {
-	padding: 6px 0;
+	padding: 15px 0;
 }
 
 .menu-on-hover{
@@ -871,6 +871,9 @@ position: relative;
 	#menu-wrap .navbar-brand img,
 	#menu-wrap.cbp-af-header.cbp-af-header-shrink .navbar-brand img{
 		max-height: 50px;
+	}
+	#menu-wrap.cbp-af-header .navbar {
+		padding: 0.8rem 30px;
 	}
 	.black-menu-background-1st-trans {
 		background-color: rgba(0, 0, 0, 1);
