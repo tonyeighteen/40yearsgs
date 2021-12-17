@@ -797,7 +797,7 @@ position: relative;
 	left: 0;
 }
 .cbp-af-header .navbar-toggler-right {
-	right: 30px;
+	right: 10px;
 }
 .cbp-af-header .navbar-toggler {
 	padding: 15px 0;
@@ -873,7 +873,7 @@ position: relative;
 		max-height: 50px;
 	}
 	#menu-wrap.cbp-af-header .navbar {
-		padding: 0.8rem 30px;
+		padding: 0.8rem 0px;
 	}
 	.black-menu-background-1st-trans {
 		background-color: rgba(0, 0, 0, 1);
@@ -1609,3 +1609,99 @@ figure.vimeo a img, figure.youtube a img {
 		display: none;
 	}
 }
+
+/* Start - Loading effect */
+.loading-screen.active {
+    display: block;
+}
+.loading-screen {
+    z-index: 100000;
+    display: none;
+    background: rgba(0, 0, 0, 0.5);
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+.lds-ring {
+    display: inline-block;
+    position: absolute;
+    width: 64px;
+    height: 64px;
+    top: 50%;
+    left: 50%;
+    margin-left: -32px;
+    margin-top: -32px;
+}
+.lds-ring div {
+  box-sizing: border-box;
+  display: block;
+  position: absolute;
+  width: 51px;
+  height: 51px;
+  margin: 6px;
+  border: 6px solid #fff;
+  border-radius: 50%;
+  animation: lds-ring 1.2s cubic-bezier(0.5, 0, 0.5, 1) infinite;
+  border-color: #fff transparent transparent transparent;
+}
+.lds-ring div:nth-child(1) {
+  animation-delay: -0.45s;
+}
+.lds-ring div:nth-child(2) {
+  animation-delay: -0.3s;
+}
+.lds-ring div:nth-child(3) {
+  animation-delay: -0.15s;
+}
+@keyframes lds-ring {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
+/* End - Loading effect */
+
+
+/**/
+
+#thanks {
+    position: relative;
+    height: 100vh;
+    padding: 90px 0 400px 0;
+    text-align: center;
+    background: url(../uploads/product_img_3.jpg) no-repeat 50% 70%;
+	background-size: cover;
+}
+
+#thanks .inner {
+    border: 1px solid #fff;
+    padding: 30px;
+}
+
+#thanks .text {
+    color: #fff;
+    border: 1px solid #fff;
+    padding: 30px;
+    background: rgba(0, 0, 0, 0.5);
+}
+
+#thanks .text {
+    font-size: 24px;
+}
+
+#thanks .text .logo {
+    margin-top: 30px;
+	width: 100%;
+	max-width: 400px;
+}
+
+#biker {
+    background: url(../img/bg_gradient.gif) repeat-x 50% 0%;
+    position: relative
+}
+
+/**/
